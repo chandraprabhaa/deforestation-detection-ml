@@ -59,7 +59,7 @@ def analyze_forest(image_path, min_tree_area, threshold_value):
 # Function to send email with attached report
 def send_email(file_path):
     sender_email = "deforestationmonitoringsystem@gmail.com"
-    sender_password = "fzna jerl xcwo zjrm"  # Use an App Password
+    sender_password = "56xxxxxxxxxxx"  # Use an App Password
 
     recipient_email = simpledialog.askstring("Recipient Email", "Enter recipient's email:")
     if not recipient_email:
